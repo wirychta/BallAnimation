@@ -38,7 +38,7 @@ def get_pos(t=0):
         y += vy * dt
         vy -= g * dt
         if y < 0:
-            # Odbicie
+            # Odbicie piłki
             y = 0
             vy = -vy * cor
         yield x, y
